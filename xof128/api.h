@@ -1,0 +1,8 @@
+#define CRYPTO_BYTES 64
+#define ASCON_HASH_BYTES 0 /* XOF */
+#define ASCON_HASH_ROUNDS 12
+#define ASCON_VARIANT 3
+
+#define MAX_MSG_LEN      4096
+ 
+#define MAX_ABSORB_BLOCKS (MAX_MSG_LEN / 8 + 1)
